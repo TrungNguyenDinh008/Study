@@ -26,7 +26,7 @@ right: 0px;
 }
 .top-header {
     color: white;
-    font-size: 60px;
+    font-size: 30px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -34,7 +34,7 @@ right: 0px;
 }
 .top-paragraph {
     color: white;
-    font-size: 40px;
+    font-size: 16px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -43,14 +43,13 @@ right: 0px;
 .Cloud {
    
     width: 100%;
-    height: 600px;
+    height: 100px;
+    position: relative;
+    top: 490px;
     
 }
-.big-container {
-    font-size: 20px;
-}
 .first-container {
-    margin-top: 100px;
+    margin: 50px 0px 200px 0px;
     text-align: center;
     width: 100%;
     height: 400px;
@@ -59,9 +58,10 @@ right: 0px;
     
 }
 .first-header {
-    font-size: 30px;
+    font-size: 15px;
     margin-bottom: 75px;
 }
+
 #second-header{
     text-decoration: underline;
     font-size: 40px;
@@ -72,54 +72,42 @@ right: 0px;
     font-size: 25px;
 }
 .second-container {
-   position: relative;
-    width: 100%;
-    height: 800px;
-}
-#Whatcanido {
-    text-decoration: underline;
-    text-align: center;
-}
-#HTML-div{
-position: relative;
-width: 100%;
-height: 400px;
-}
-.HTML {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50%;
-    height: 200px;
-}
+     width: 100%;
+     height: 400px;
+ }
+ #Whatcanido {
+     text-decoration: underline;
+     text-align: center;
+ }
+ #HTML-div{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    }
+    .HTML {
+        float: right;
+        border-radius: 50%;
+        height: 200px;
+    }
 .HTML-pragraph{
  font-size: 25px;
  text-align: center;
 }
-#CSS-div {
-position: relative;
-width: 100%;
-height: 400px;
-}
 .CSS {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 35px;
-    right: 0px;
-    bottom: 30px;
+   float: left;
     border-radius: 50%;
     height: 140px;
     width: 140px;
-    margin-bottom: 50px;
+    
 }
 .CSS-pragraph{
     font-size: 25px;
     text-align: center;
+    margin-top: 520px ;
 }
-.third-container {
-   position: relative;
-    margin-top: 100px; 
-    width: 100%;
-    height: 400px;
+@media screen and (min-width: 768px) {
+    .CSS-pragraph{
+        margin-top: 10px;
+    }
 }

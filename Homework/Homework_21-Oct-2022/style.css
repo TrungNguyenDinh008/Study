@@ -1,0 +1,47 @@
+body {
+    background-color: #06283D;
+}
+.profile-container {
+    background-color: #DFF6FF;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    border: 1px solid grey;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.profile-picture {
+    border-radius: 50%;
+}
+.profile-status-pragraph {
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15%;
+}
+.profile-name-pragraph {
+    display: inline-block;
+    font-size: 20px;
+}
+.bi {
+    padding: 0px 7px 0px 7px;
+}
+.profile-manage {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    column-gap: 0px;
+}
+.profile-manage-item {
+    background-color: #47B5FF;
+    border: 2px solid black;
+    width: 100px;
+    border-radius: 10%;
+    
+    
+}
+

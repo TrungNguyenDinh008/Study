@@ -1,0 +1,26 @@
+1. explain Bootstrap and write a code with Bootstrap
+2. add Bootstrap link to <html> file on getboostrap.com
+3. write a piece of Grid Classes code that contains 4 classes:
+xs,xm,md,lg
+4. write 1 code with .container and 1 piece of code with .container-fluid
+5. create button styles with the following classes
+.btn
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-link
+
+6. create a navigation bar that can expand or collapse, depending on the screen size
+
+7. explain Font Awesome
+
+8.  add the link of Font Awesome to the html file on the website getbootstrap.com
+
+9. Create a <h1> tag and add an icon in bootstrap on top of the tag
+
+10. See the following code:
+<button type="button" class="btn btn-dark btn-lg dowload-buttom" >Download</button>
+please add apple icon to <button>

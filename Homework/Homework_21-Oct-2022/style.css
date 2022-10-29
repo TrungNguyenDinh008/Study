@@ -1,8 +1,9 @@
 body {
-    background-color: #06283D;
+    background-color: #81C6E8;
+    font-family: 'Comfortaa', cursive;
 }
 .profile-container {
-    background-color: #DFF6FF;
+    background-color: white;
     text-align: center;
     display: grid;
     grid-template-columns: auto;
@@ -36,12 +37,46 @@ body {
     justify-content: space-evenly;
     column-gap: 0px;
 }
-.profile-manage-item {
-    background-color: #47B5FF;
-    border: 2px solid black;
-    width: 100px;
-    border-radius: 10%;  
+.message-btn{
+    position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #3289C8;
+  background-color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  cursor: pointer;
 }
+.message-btn:hover {
+    background-color:#3289C8 ;
+    color: white;
+}
+.contact-btn{
+    position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #3289C8;
+  background-color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+.contact-btn:hover {
+    background-color:#3289C8 ;
+    color: white;
+}
+
+    
 @media screen and (min-width:375px) {
     .profile-container {
         width: 90%;

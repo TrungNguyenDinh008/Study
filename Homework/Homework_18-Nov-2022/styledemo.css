@@ -1,0 +1,240 @@
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+.topnav {
+  background-color: #b4846c;
+  width: 100%;
+}
+.navbar-brand{
+  font-size: 40px;
+}
+.nav-link{
+  font-size: 20px;
+}
+.topctn {
+  position: relative;
+}
+.head-pic {
+  display: inline-block;
+  width: 100%;
+  height: 70%;
+}
+.heading {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50%;
+  font-size: 60px;
+}
+.features {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+.aether{
+  background-color:#b4846c;
+  height: 300px;
+  width: 1px;
+}
+.features-item1 {
+  font-size: 30px;
+  padding: 60px;
+}
+.features-item2 {
+  font-size: 30px;
+  padding: 60px;
+}
+.features-item3 {
+  font-size: 30px;
+  padding: 60px;
+}
+.bi {
+  color: #7d5a50;
+}
+.list {
+  color: white;
+}
+.press {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 50px 0px;
+}
+.foodoftheday {
+  text-align: center;
+}
+.press-logo {
+  margin: auto;
+}
+.footer {
+  background-color: #b4846c;
+  padding: 0px 50px;
+}
+hr{
+  color: bisque;
+  border-top: dotted;
+  width: 100%;
+  border-width: 20px;
+}
+.footer-link{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  text-align: left;
+}
+.l1,.l2,.l3{
+  display: inline-block;
+}
+.l1 > a,.l2 > a,.l3 > a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+.footer-connect{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  text-align: center;
+}
+.c1{
+  color:white;
+  font-size: 4em;
+}
+.c2 {
+  color:white;
+  font-size: 1.5em;
+  margin: auto 0px;
+}
+.c2 > p{
+  display: inline-block;
+}
+.c2 > a{
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: 0px 10px 0px 10px;
+}
+.c3 > p{
+  color: white;
+  font-size: 2em;
+}
+.btn{
+  margin:0px 15px;
+}
+.footer-info{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #7d5a50;
+  padding: 0px 50px;
+}
+.i1{
+  color: white;
+  font-size: 1.4em;
+}
+.i1 > p {
+  margin-top: 40px
+}
+.i2{
+  color: white;
+  font-size: 1.3em;
+  text-align: right;
+}
+.ether{
+  background-color:#b4846c;
+  height: 25px;
+}
+.bether{
+  background-color:bisque;
+  height: 150px;
+  width: 1px;
+}
+.cether{
+  background-color:bisque;
+  height: 150px;
+  width: 1px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .heading {
+    font-size: 29px;
+  }
+  .features {
+    grid-template-columns: auto;
+    margin: 25px 0px;
+    margin-top: 25px;
+  }
+  .features-item2 {
+    margin: 10px 0px;
+  }
+  .press {
+    grid-template-columns: auto;
+  }
+  .press-logo {
+    margin: 30px auto;
+  }
+  .foodoftheday {
+    margin: 25px 0px;
+  }
+.c1{
+  margin: auto 0px;
+  font-size: 2em;
+}
+.c2{
+  text-align: center;
+}
+.c2 > p{
+font-size: 0.8em;
+display: block;
+}
+.c2 > a{
+  font-size: 1em;
+  margin: 0px 2px;
+}
+.c3{
+font-size: 0.7em;
+}
+.aether{
+  height: 1px;
+  width: 1px;
+}
+
+}
+@media only screen and (max-width:375px) {
+  .heading{
+    font-size: 20px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35%;
+  }
+.footer-connect{
+display: grid;
+grid-template-columns: auto ;
+text-align: center;
+}
+.cether{
+  height: 1px;
+    width: 300px;
+}
+.c1, .c2, .c3{
+  padding: 20px 0px;
+}
+.l1 > a,.l2 > a,.l3 > a{
+  font-size: 1.0em;
+}
+.i1, .i2{
+  font-size: 0.7em;
+}
+
+
+
+
+}
+

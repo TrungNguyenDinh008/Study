@@ -27,7 +27,7 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 50%;
-  font-size: 60px;
+  font-size: 50px;
 }
 .features {
   display: grid;
@@ -70,6 +70,7 @@
 }
 .press-logo {
   margin: auto;
+  width:80%
 }
 .footer {
   background-color: #b4846c;
@@ -79,7 +80,7 @@ hr{
   color: bisque;
   border-top: dotted;
   width: 100%;
-  border-width: 20px;
+  border-width: 10px;
 }
 .footer-link{
   display: grid;
@@ -103,12 +104,14 @@ hr{
 }
 .c1{
   color:white;
-  font-size: 4em;
+  font-size: 3.2em;
+  padding: auto;
 }
 .c2 {
   color:white;
   font-size: 1.5em;
-  margin: auto 0px;
+  margin: 20px;
+  padding:auto;
 }
 .c2 > p{
   display: inline-block;
@@ -116,12 +119,15 @@ hr{
 .c2 > a{
   color: white;
   cursor: pointer;
-  font-size: 1.5em;
+  font-size: 1.1em;
   margin: 0px 10px 0px 10px;
 }
 .c3 > p{
   color: white;
-  font-size: 2em;
+  font-size: 1.7em;
+}
+.c3{
+    margin: auto 5px  ;
 }
 .btn{
   margin:0px 15px;
@@ -158,83 +164,125 @@ hr{
   height: 150px;
   width: 1px;
 }
-@media only screen and (max-width: 768px) {
-  .navbar-brand {
-    font-size: 30px;
-  }
-  .heading {
-    font-size: 29px;
-  }
-  .features {
-    grid-template-columns: auto;
-    margin: 25px 0px;
-    margin-top: 25px;
-  }
-  .features-item2 {
-    margin: 10px 0px;
-  }
-  .press {
-    grid-template-columns: auto;
-  }
-  .press-logo {
-    margin: 30px auto;
-  }
-  .foodoftheday {
-    margin: 25px 0px;
-  }
-.c1{
-  margin: auto 0px;
-  font-size: 2em;
+@media only screen and (max-width:1024px) {
+   .heading{
+    font-size: 35px;
+   }
+   .c1{
+    font-size: 2.425em;
+   } 
+   .c2 > p{
+    font-size: 1em;
+    text-align: center;
+    display: block;
+   }
+   .fa-brands{
+    font-size: 0.8em;
+   }
 }
-.c2{
-  text-align: center;
+@media only screen and (max-width:768px) {
+    .heading{
+        font-size:1.5em
+    }
+    .footer-connect{
+        grid-template-columns: auto;
+    }
+.cether{
+    width: 100%;
+    height: 1px;
+    
 }
-.c2 > p{
-font-size: 0.8em;
-display: block;
+.fa-brands{
+    font-size: 40px;
 }
-.c2 > a{
-  font-size: 1em;
-  margin: 0px 2px;
+.c1,.c2,.c3{
+    padding:15px 0px;
 }
-.c3{
-font-size: 0.7em;
 }
-.aether{
-  height: 1px;
-  width: 1px;
+@media only screen and (max-width:600px){
+     .heading{
+        font-size: 20px;
+}
+.features > .aether{
+   display: none;
+}
+.features{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: auto auto auto auto auto;
+}
+.features-item1,.features-item2,.features-item3{
+    padding: 20px 0px;
+    font-size: 25px ;
+}
+.features-item1,.features-item3{
+    text-align: left;
 }
 
+.features-item2{
+    text-align: right;
+}
+.features-item2 > svg{
+    float: right;
+    margin-left: 30px;
+
+}
+.features-item1 > svg,.features-item3 > svg{
+    float: left;
+    margin-right: 30px;
+}
 }
 @media only screen and (max-width:375px) {
-  .heading{
-    font-size: 20px;
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 35%;
-  }
-.footer-connect{
-display: grid;
-grid-template-columns: auto ;
-text-align: center;
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .heading{
+        text-align: center;
+    }
+    .features-item1,.features-item2,.features-item3{
+        font-size: 17px ;
+    }
+    .features-item2 > svg{
+     width: 70px ;
+    }
+    .features-item1 > svg,.features-item3 > svg{
+       width: 70px;
+    }
+    .press{
+        grid-template-columns: auto auto;
+    }
+    .press-logo{
+        margin: 30px;
+        width: 80%;
+    }
+    .footer-link{
+        font-size: 0.55em;
+        margin: 10px 0px;
+    }
+    .fa-brands{
+        font-size: 18px;
+    }
+    .c3 > p{
+        font-size: 20px;
+    }
+    .c3 > button {
+        font-size: 15px;
+    }
+    .i1,.i2{
+        font-size: 15px;
+    }
+    .i1 > p{
+        margin: 10px 0px;
+    }
+    .i2 > p{
+        margin: 10px 0px;
+    }
 }
-.cether{
-  height: 1px;
-    width: 300px;
+@media only screen and (max-width:320px) {
+    .c3 > button {
+        font-size: 8px;
+    }
+    .c3  > p{
+        font-size: 15px;
+    }
 }
-.c1, .c2, .c3{
-  padding: 20px 0px;
-}
-.l1 > a,.l2 > a,.l3 > a{
-  font-size: 1.0em;
-}
-.i1, .i2{
-  font-size: 0.7em;
-}
-
-
-
-
-}
-

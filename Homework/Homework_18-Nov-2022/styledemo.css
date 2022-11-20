@@ -1,10 +1,55 @@
+.dropbtn {
+  background-color: #7D5A50;
+  color: white;
+  padding: 16px 100%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+}
+
+.dropdown-content {
+  display: none;
+  left: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 162px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+  left:1px;
+  right: 1px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:#7D5A50 ;
+  color: #ffffff;
+}
 .navbar-brand,
 .nav-link {
   color: white;
 }
 
 .topnav {
-  background-color: #b4846c;
+  background-color:#b4846c;
   width: 100%;
 }
 .navbar-brand{
@@ -87,10 +132,7 @@ hr{
   grid-template-columns: auto auto auto auto auto;
   text-align: left;
 }
-.l1,.l2,.l3{
-  display: inline-block;
-}
-.l1 > a,.l2 > a,.l3 > a{
+.l > a{
   display: block;
   color: white;
   text-decoration: none;
@@ -231,6 +273,40 @@ hr{
     float: left;
     margin-right: 30px;
 }
+.fa-brands{
+  font-size:30px;
+}
+.i1{
+  font-size: 12px;
+}
+.i2{
+  font-size: 15px;
+  text-align: left;
+}
+.footer-info{
+  grid-template-columns: auto;
+}
+.footer-link{
+  grid-template-columns: none;
+  grid-template-rows: auto auto auto auto auto;
+}
+.l1,.l2,.l3{
+  text-align: left;
+  margin: 5px 0px;
+}
+.bether{
+  height: 1px;
+}
+.l{
+  display: none;
+}
+.dropbtn{display:block;}
+.dropdown-content > a{
+  padding: 16px 190px;
+}
+}
+.dropdown-content{
+  position: relative;
 }
 @media only screen and (max-width:375px) {
     .navbar-brand{
@@ -277,6 +353,14 @@ hr{
     .i2 > p{
         margin: 10px 0px;
     }
+    .dropdown-content > a{
+padding: 12px 120px;
+    }
+}
+@media only screen and (max-width: 414px) {
+  .dropdown-content > a{
+padding: 10px 120px;
+  }
 }
 @media only screen and (max-width:320px) {
     .c3 > button {
@@ -284,5 +368,8 @@ hr{
     }
     .c3  > p{
         font-size: 15px;
+    }
+    .dropdown-content > a{
+      padding: 10px 100px;
     }
 }

@@ -1,3 +1,43 @@
+body > h1 {
+  text-align: center;
+}
+.card-header{
+  background-color: #b4846c;
+  color: white;
+}
+.card-body{
+  background-color: rgb(255, 253, 235);
+}
+.card-body > h1{
+  padding-bottom: 25px;
+}
+.n > .card-body > button {
+  background-color: white;
+  color: #7d5a50;
+  padding: 12px 100px;
+  border: #7d5a50 solid 2px;
+}
+.p > .card-body > button,.s > .card-body > button {
+  background-color: #7d5a50;
+  color:white ;
+  padding: 12px 100px;
+  border: #7d5a50 solid 2px;
+}
+.n > .card-body > button:hover {
+  background-color:#7d5a50 ;
+  color:white ;
+  padding: 12px 100px;
+  border: #7d5a50 solid 2px;
+}
+.p > .card-body > button:hover,.s > .card-body > button:hover {
+  background-color:white ;
+  color:#7d5a50 ;
+  padding: 12px 100px;
+  border: #7d5a50 solid 2px;
+}
+.price {
+  text-align: center;
+}
 .dropbtn {
   background-color: #7D5A50;
   color: white;

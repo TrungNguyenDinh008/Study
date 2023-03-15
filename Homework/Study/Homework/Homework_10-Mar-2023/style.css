@@ -1,0 +1,174 @@
+body{
+    font-family: 'Roboto', sans-serif,;
+    text-align: center;
+}
+#body{
+    width: 100%;
+}
+#footer{
+    width: 100%;
+}
+.wave{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.colorNav{
+    background-color: #ffffff;
+}
+.colorLink{
+    color: #22b9ff;
+    font-size: 1.2em;
+}
+.colorLink:hover{
+    color: #2f83e2;
+}
+.logo{
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.button{
+    color: white;
+    background-image: linear-gradient(to right,#098af5,#2f82e2,#22b9ff) ;
+    border: none;
+    font-size: 1.3em;
+    margin: auto 10px;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.duoButton{
+    color: #2461a7;
+    background-color:white ;
+    border: 1px solid #2461a7  ;
+    font-size: 1.3em;
+    margin: auto 10px;  
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.button:hover{
+    background-image: linear-gradient(to right,#098bf5ad,#2f82e2ad,#22b9ffad)
+}
+.duoButton:hover{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,#098af5,#2f83e2,#22b9ff)  ;
+}
+.headerTitle{
+margin-top: 50px;
+font-size: 1.5em;
+color: #22b9ff;
+}
+.headerPrint{
+    color: #22b9ff;
+    font-size: 1.5em;
+}
+.QOTD{
+    background-color:#098af5;
+}
+.title{
+    margin-top: -30px;
+    font-size: 2.5em;
+    color: white;
+}
+ .print{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+.quiz{
+    margin-top: 0px;
+    background-color: #098af5;
+}
+.card{
+    border-radius: 50px;
+}
+.card-header{
+    background: #22B9FF;
+    color: white;
+    border-radius: 50px;
+}
+.author, .authorD{
+    display: inline-block;
+    font-size: 15px;
+    margin:auto 10px ;
+}
+.titleF{
+    margin-top: -100px;
+    font-size: 2.5em;
+    color:#22B9FF;
+}
+ .printF{
+    color:#22B9FF;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+.features{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    column-gap: 50px;
+    margin-bottom: 50px;
+}
+.fa-handshake, .fa-note-sticky, .fa-face-smile  {
+    color:#098af5 ;
+    font-size: 2.25em;
+}
+.footerLink-grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: #098af5;
+    text-align: left;
+}
+.footerLink{
+    display: block;
+    text-decoration: none;
+    background-color: #098af5;
+    color: white;
+}
+.footerLink:hover{
+  position: relative;
+    font-size: 20px;}
+
+#Footer > .footerLink-grid > h5{
+    color: white;
+}
+.footerEnd{
+    background-color: #22B9FF;
+    color: white;
+}
+.fa-facebook, .fa-twitter, .fa-instagram{
+    font-size: 2em;
+    margin: auto 10px  ;
+    cursor: pointer;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover{
+    color: #2461a7;
+}
+@media only screen and (max-width: 768px) {
+   .b{
+    margin: 50px auto ;
+   }
+  }
+  @media only screen and (max-width: 600px) {
+    .titleF, .printF{
+     margin-top: 20px;
+    }
+    .features{
+        grid-template-columns: auto;
+        row-gap: 30px;
+    }
+    .footerLink-grid{
+        grid-template-columns: auto;
+        text-align: center;
+        row-gap: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+   }
+
+
+/*Part for quiz from now */
+#startBtn{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%);
+}
